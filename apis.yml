@@ -1,9 +1,28 @@
 aid: overview
 name: Overview
-description: 'Overview is a company surfaced as a portfolio company of gv, homebrew and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Overview (overview.ai) builds AI-powered machine vision systems for
+  manufacturing quality control. Its edge-computing platform runs vision
+  transformer models directly on smart cameras with on-device NVIDIA GPUs to
+  perform automated defect detection, assembly verification, and real-time
+  inspection without cloud dependency. Overview serves connector, semiconductor,
+  packaging, automotive, pharmaceutical, aerospace, renewable energy, food, and
+  textile manufacturers, and integrates with factory-floor systems (PLCs, ERPs,
+  SCADA) over MQTT and digital I/O rather than a public REST API. Backed by GV
+  and Homebrew. Profiled in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/overview/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://overview.ai/logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai
+- Machine Vision
+- Manufacturing
+- Quality Control
+- Computer Vision
+- Edge AI
+- Industrial Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +49,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/overview-domain-security.yml
 - type: Website
   url: https://overview.ai
+- type: Documentation
+  url: https://docs.overview.ai
+- type: Blog
+  url: https://overview.ai/resources/blog/
+- type: Support
+  url: https://overview.ai/contact/
+- type: About
+  url: https://overview.ai/company/
+- type: TermsOfService
+  url: https://overview.ai/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://overview.ai/privacy-policy/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
