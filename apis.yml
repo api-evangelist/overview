@@ -50,7 +50,7 @@ tags:
 - Machine Vision
 - Manufacturing
 - Quality Control
-- Computer-Vision
+- Computer Vision
 - Edge AI
 - Industrial Automation
 tags_raw:
@@ -62,6 +62,7 @@ tags_raw:
 - Computer Vision
 - Edge AI
 - Industrial Automation
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
